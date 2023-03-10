@@ -1,4 +1,4 @@
-package Git_practice;
+package lesson_1;
 
 
 public class First {
