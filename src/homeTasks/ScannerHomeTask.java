@@ -22,12 +22,12 @@ public class ScannerHomeTask {
         System.out.println("I Study in =" +myStudy );
 
         System.out.println("What is your course grade?");
-        double myDouble= input.nextDouble();
-        System.out.println("My course grade is =" +myDouble );
+        double myGrade= input.nextDouble();
+        System.out.println("My course grade is =" +myGrade );
 
         System.out.println("What is your age?");
-        int myInt= input.nextInt();
-        System.out.println("My age is =" +myInt );
+        int myAge= input.nextInt();
+        System.out.println("My age is =" +myAge );
 
 
 
