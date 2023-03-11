@@ -9,7 +9,7 @@ public class ScannerHomeTask {
         String myFirstName= input.nextLine();
         System.out.println("My First Name = " + myFirstName);
 
-        System.out.println("What is your Last Name?");
+        System.out.println("What is your Last Tame?");
         String myLastName= input.nextLine();
         System.out.println("My Last Name =" +myLastName );
 
