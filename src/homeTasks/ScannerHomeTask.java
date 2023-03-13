@@ -6,19 +6,27 @@ public class ScannerHomeTask {
         Scanner input = new Scanner(System.in);
 
         System.out.println("What is your First name? ");
+
         String myFirstName= input.nextLine();
+        
         System.out.println("My First Name = " + myFirstName);
 
         System.out.println("What is your Last Name?");
+
         String myLastName= input.nextLine();
+
         System.out.println("My Last Name =" +myLastName );
 
         System.out.println("Where do You live?");
+
         String myCity= input.nextLine();
+
         System.out.println("I Live in =" +myCity );
 
         System.out.println("Where do You Study?");
+
         String myStudy= input.nextLine();
+
         System.out.println("I Study in =" +myStudy );
 
         System.out.println("What is your course grade?");
