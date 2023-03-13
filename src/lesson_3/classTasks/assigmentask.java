@@ -6,6 +6,7 @@ public class assigmentask {
 
 
         int a =10;
+
         a+=90;
         a-=25;
         a/=3;
