@@ -1,6 +1,6 @@
 package homeTasks;
 
-public class comperisonTask {
+public class ComperisonTask {
 
     public static void main(String[] args) {
 
