@@ -15,5 +15,12 @@ public class clockTask {
         System.out.println("The current time is: ");
         System.out.println(hours + " : " + minutes);
 
+        System.out.println("What time is it now? ");
+
+        int Time = scanner.nextInt();
+
+        int h=Time;
+        int m=Time;
+        System.out.println( "Time is:--->>>"+h/100 + " : " + m%100);
     }
 }
