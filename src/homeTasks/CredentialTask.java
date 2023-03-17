@@ -1,20 +1,21 @@
 package homeTasks;
 import java.util.Scanner;
-public class LoginTo {
+public class CredentialTask {
 
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);
 
         System.out.println("Please Enter Your UserName");
-        String UserName=input.nextLine();
+        String userName=input.nextLine();
         System.out.println("Please Enter Your Password");
-        int Password=input.nextInt();
+        String password=input.nextLine();
 
-        String SavedUserName ="Ladislav";
-        int SavedPassword= 1234;
+        String savedUserName ="Ladislav";
+        String savedPassword= "1234";
+        String result;
 
-        if(UserName.equalsIgnoreCase(SavedUserName) && Password==SavedPassword){
+        if(userName.equalsIgnoreCase(savedUserName) && password.equalsIgnoreCase(savedPassword)){
             System.out.println("Log-in to System successfully");
         }
 
