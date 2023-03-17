@@ -1,14 +1,14 @@
 package homeTasks;
 import java.util.Scanner;
-public class SwitchCaseMonth {
+public class MonthTask {
 
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);
         System.out.println("Enter Number of Month");
-        int NumMonth=input.nextInt();
+        int numMonth=input.nextInt();
 
-        switch(NumMonth){
+        switch(numMonth){
             case 1:
                 System.out.println("Month is January");
                 break;
