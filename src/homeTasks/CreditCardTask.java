@@ -11,7 +11,7 @@ public class CreditCardTask {
 
              for(int i=0; i<5; i++) {
 
-                 if(i==4){
+                 if(i==5){
                      System.out.println("Your credit card blocked");
                      break;
                  }
