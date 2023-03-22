@@ -4,9 +4,9 @@ public class CreditCardTaskArray {
     public static void main(String[] args) {
 
 
-        String[] usernameArray = {"Ladislav", "userName"};
+        String[] usernameArray = new String[2];
         int passwordsArray[] = new int[2];
-
+        usernameArray[0]= "Ladislav";
         passwordsArray[0] = 12345678;
 
 
