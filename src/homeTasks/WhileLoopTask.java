@@ -13,6 +13,8 @@ public class WhileLoopTask {
             if(j==100){
                 break;
             }
+
+
             if(j%7==0){
                 System.out.println(j);
                 j++;
