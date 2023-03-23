@@ -16,7 +16,7 @@ public class WhileLoopTask {
 
 
             if(j%7==0){
-                System.out.println(j);
+                System.out.print(j + " ");
                 j++;
                 sum=j+sum;
                 continue;
@@ -28,11 +28,11 @@ public class WhileLoopTask {
             }
 
 
-            System.out.println(sum);
+
             j++;
 
         }
-
+        System.out.println(sum);
     }
 
 }
