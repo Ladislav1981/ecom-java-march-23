@@ -9,6 +9,10 @@ public class WhileLoopTask {
 
         while (j <= 500) {
 
+
+            if(j==100){
+                break;
+            }
             if(j%7==0){
                 System.out.println(j);
                 j++;
@@ -16,12 +20,11 @@ public class WhileLoopTask {
             }
 
             if(j%4==0){
-
+                j++;
+                continue;
             }
 
-            if(j==100){
-                break;
-            }
+
 
             j++;
 
